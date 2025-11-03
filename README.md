@@ -43,7 +43,7 @@ Installation
 Clone the repository
 
 bash
-git clone <your-repo-url>
+git clone https://github.com/AbdulHaye/weather-radar-display.git
 cd weather-radar-app
 Backend Setup (Python)
 
@@ -116,7 +116,7 @@ Python requirements: Vercel automatically installs from requirements.txt
 Environment Variables
 bash
 # For production
-VITE_API_BASE_URL=https://your-vercel-app.vercel.app/api
+VITE_API_BASE_URL=https://weather-radar-display-s2w4.vercel.app/
 🎯 Client Requirements Met
 Requirement	Status	Implementation
 Process data directly from MRMS	 	Connects to NOAA AWS S3 MRMS data
