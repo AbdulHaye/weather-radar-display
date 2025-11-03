@@ -1,0 +1,12 @@
+{
+  "name": "weather-radar-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "python mrms_service.py",
+    "dev": "python mrms_service.py",
+    "install-python": "pip install -r requirements.txt"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
