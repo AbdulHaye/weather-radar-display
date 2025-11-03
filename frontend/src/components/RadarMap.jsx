@@ -56,7 +56,7 @@ const RadarMap = () => {
       setStatus("loading");
       console.log("🔄 Fetching radar data from backend...");
 
-      const response = await fetch("http://localhost:5000/api/radar/latest", {
+      const response = await fetch("https://backend-weather-radar-production.up.railway.app/api/radar/latest", {
         method: "GET",
         headers: {
           Accept: "application/json",
@@ -270,7 +270,7 @@ const RadarMap = () => {
         <br/>
         <strong>🔧 Troubleshooting Steps:</strong><br/>
         1. Check if backend is running: <code>npm run dev</code> in backend folder<br/>
-        2. Test backend directly: <a href="http://localhost:5000/health" target="_blank">http://localhost:5000/health</a><br/>
+        2. Test backend directly: <a href="https://backend-weather-radar-production.up.railway.app/health" target="_blank">https://backend-weather-radar-production.up.railway.app/health</a><br/>
         3. Verify no other service is using port 5000<br/>
         4. Check console for detailed errors
       </div>
